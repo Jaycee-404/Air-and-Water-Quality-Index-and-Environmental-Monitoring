@@ -36,11 +36,6 @@ The **Air and Water Quality Monitoring System** is an efficient solution for rea
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
 ### **Connection Diagrams**  
 #### **1️⃣ Air Quality Monitoring System Diagram**  
 ![image](https://github.com/user-attachments/assets/f81c366b-5235-47f4-8a8e-21560af23685)
@@ -48,4 +43,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 #### **2️⃣ Water Quality Monitoring System Diagram**  
 ![image](https://github.com/user-attachments/assets/1552a45a-1fcd-4bfd-936f-575684a1d5a5)
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
