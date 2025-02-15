@@ -1,0 +1,35 @@
+{
+    "dashboard": {
+      "title": "Air & Water Quality Monitor",
+      "widgets": [
+        {
+          "type": "Gauge",
+          "label": "Temperature",
+          "pin": "V0",
+          "min": 0,
+          "max": 50
+        },
+        {
+          "type": "Gauge",
+          "label": "Humidity",
+          "pin": "V1",
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "Graph",
+          "label": "Gas Level",
+          "pin": "V2",
+          "min": 0,
+          "max": 1024
+        },
+        {
+          "type": "Gauge",
+          "label": "Turbidity",
+          "pin": "V3",
+          "min": 0,
+          "max": 300
+        }
+      ]
+    }
+  }  

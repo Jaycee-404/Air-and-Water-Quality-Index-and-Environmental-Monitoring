@@ -1,0 +1,7 @@
+# Required Arduino Libraries
+- ESP8266WiFi
+- BlynkSimpleEsp8266
+- Adafruit_SSD1306
+- DHT sensor library
+- MQ135 sensor library
+- TDS sensor library

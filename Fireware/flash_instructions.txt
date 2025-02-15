@@ -1,0 +1,20 @@
+# How to Generate and Flash Firmware for ESP8266
+
+## 1️⃣ Prerequisites
+- Install **Arduino IDE**: https://www.arduino.cc/en/software
+- Install ESP8266 Board Support:
+  1. Open Arduino IDE → File → Preferences.
+  2. In "Additional Board Manager URLs", add:
+     http://arduino.esp8266.com/stable/package_esp8266com_index.json
+  3. Go to Tools → Board → Boards Manager → Search for "ESP8266" → Install.
+
+## 2️⃣ How to Compile & Export Firmware (.bin)
+1. Open `air_water_quality.ino` in Arduino IDE.
+2. Select Board: **NodeMCU 1.0 (ESP-12E Module)**.
+3. Click **Sketch → Export Compiled Binary**.
+4. Go to **Sketch Folder** (File → Show Sketch Folder).
+5. The firmware file (`air_water_quality.ino.bin`) will be there.
+
+## 3️⃣ How to Flash Firmware to ESP8266
+- If you generated the `.bin` file, use **ESP8266 Flash Tool** or `esptool.py`:
+esptool.py --port COM3 write_flash 0x00000 air_water_quality.ino.bin

@@ -1,0 +1,12 @@
+.DS_Store
+*.bin
+*.elf
+*.hex
+*.bak
+build/
+*.pyc
+*.o
+*.d
+*.swp
+.vscode/
+data/
