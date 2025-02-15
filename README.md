@@ -1,6 +1,8 @@
 
 ## **Air and Water Quality Index & Environmental Monitoring**  
 
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+
 ### **Abstract**  
 This project aims to develop a real-time air and water quality monitoring system using various sensors and microcontrollers. The system measures key environmental parameters such as air pollutants (CO, CO₂, PM2.5, etc.) and water contaminants (pH, turbidity, temperature, etc.), processes the data, and displays it on a dashboard. The goal is to provide actionable insights for environmental safety and public health.  
 
